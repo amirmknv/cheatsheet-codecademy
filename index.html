@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div class="=first-block">
+        <h1 id="title">How to Calculate Specificity?</h1>
+        <p class="description ">Memorize how to calculate specificity!</p>
+        <p class="description">Start at 0, add 100 for each ID value, add 10 for each class value (or pseudo-class or 
+            attribute selector), 
+            add 1 for each element selector or pseudo-element.</p>
+    </div>
+    <div class="marked-block">
+        <p><span>Note: </span> Inline style gets a specificity value of 1000, 
+            and is always given the highest priority!</p>
+        <p><span>Note 2:</span> There is one exception to this rule: if you use the 
+            <a href="https://www.youtube.com/watch?v=CHyPGSpIhSs&t=351s" target="_blank">!important rule</a>, 
+            it will even override inline styles!</p>
+    </div>
+    <table class="examples">
+        <thead>
+            <td class="1col">Selector</td>
+            <td>Specificity Value</td>
+            <td>Calculation</td>
+        </thead>
+        <tr>
+            <td class="col">p</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td class="col">p.test</td>
+            <td>11</td>
+            <td>1+10</td>
+        </tr>
+        <tr>
+            <td class="col">p#demo</td>
+            <td>101</td>
+            <td>1 + 100</td>
+        </tr>
+        <tr>
+            <td class="col">style="color: pink;"</td>
+            <td>1000</td>
+            <td>1000</td>
+        </tr>
+        <tr>
+            <td class="col">#demo</td>
+            <td>100</td>
+            <td>100</td>
+        </tr>
+    </table>
+    <footer><p>The selector with the highest specificity 
+        value will win and take effect!</p>
+    </footer>
+</body>
+</html>

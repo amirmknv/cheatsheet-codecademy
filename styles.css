@@ -1,0 +1,84 @@
+body {
+    background-image: url(White.html);
+}
+
+
+#title {
+    color: rgb(91, 123, 212);
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.description {
+    width:fit-content;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    
+}
+
+span {
+    font-weight: bold;
+    font-style: italic;
+}
+
+a {
+    color: blue;
+    
+}
+
+a:hover {
+    color: rgb(178, 211, 32);
+}
+
+
+.examples {
+    background-color: rgb(32, 155, 73);
+    color: whitesmoke;
+    margin: 30px;
+    padding: 12px 15px;
+    min-width: 600px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: auto;
+    border-style: double;
+}
+
+table thead {
+
+    font-weight: bold;
+    background-color: rgb(32, 155, 73);
+    font-size: larger;
+    border-style: dotted;
+   
+}
+
+.marked-block {
+    background-color: rgb(32, 155, 73);
+    width: fit-content;
+    padding: 5px;
+    margin: 10px auto;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 400;
+    border-style: double;
+    
+    
+}
+
+.col {
+    width: 150px;
+}
+
+footer {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 700px;
+    font-size: 16px;
+    color: rgb(91, 123, 212);
+}
